@@ -12,9 +12,9 @@ L.Control.Radar = L.Control.extend({
 
     options: {
         position: `topright`,
-        opacity: 0.575,
+        opacity: 0.475,
         zIndex: 200,
-        transitionMs: 750,
+        transitionMs: 850,
         playHTML: `&#9658;`,
         pauseHTML: `&#9616;`,
     },
@@ -74,8 +74,8 @@ L.Control.Radar = L.Control.extend({
             this.container
         );
 
-        this.setDisabled(true);
-        this.isPaused = true;
+        this.setDisabled(false);
+        this.isPaused = false;
 
         return this.container;
     },
