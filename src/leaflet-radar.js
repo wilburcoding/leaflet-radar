@@ -3,7 +3,7 @@
 
 L.Control.Radar = L.Control.extend({
 
-    NEXRAD_URL: `https://mesonet.agron.iastate.edu/cgi-bin/nexrad/n0q.cgi`,
+    NEXRAD_URL: `https://mesonet.agron.iastate.edu/cgi-bin/wms/nexrad/n0q.cgi`,
     NEXRAD_LAYER: `nexrad-n0q-900913`,
 
     isPaused: false,
